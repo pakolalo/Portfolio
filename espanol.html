@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow">
+    <meta name="title" content="Isco del Collado Frontend Developer">
+    <meta name="description" content="Creo sitios web responsivos que son rápidos, fáciles de usar y construidos con las mejores prácticas. El área principal de mi experiencia es el desarrollo frontend, HTML, CSS y JS. ">
+    <title>Isco del Collado - Frontend Developer</title>
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://iscodelcollado.com/">
+    <meta property="og:title" content="Isco del Collado Frontend Developer">
+    <meta property="og:description" content="I create responsive websites that are fast, easy to use, and built with the best practices. The main area of my expertise is front-end development, HTML, CSS, and JS. ">
+    <meta property="og:image" content="./assets/images/screenshot.jpg">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://iscodelcollado.com/">
+    <meta property="twitter:title" content="Isco del Collado Frontend Developer">
+    <meta property="twitter:description" content="I create responsive websites that are fast, easy to use, and built with the best practices. The main area of my expertise is front-end development, HTML, CSS, and JS. ">
+    <meta property="twitter:image" content="./assets/images/screenshot.jpg">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+</head>
+<body>
+    <section class="preloader" data-preloader>
+        <div class="circle"></div>
+    </section>
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./assets/images/logo.svg" width="170" height="40" alt="Pfolio home logo image">
+            </a>
+            <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn>
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+            </button>
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+                    <li>
+                        <a href="#" class="navbar-link">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio-label" class="navbar-link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#service-label" class="navbar-link">Servicios y Habilidades</a>
+                    </li>
+                    <li>
+                        <a href="./index.html" class="navbar-link">English</a>
+                    </li>
+                    <li>
+                        <a href="mailto:info@iscodelcollado.com" class="navbar-link">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="overlay" data-nav-toggler data-overlay></div>
+        </div>
+    </header>
+    <main>
+        <article>
+            <section class="section hero">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1 class="h1 hero-title">Isco del Collado</h1>
+                        <p class="hero-subtitle">
+                            Frontend Developer
+                        </p>
+                        <div class="hero-banner">
+                            <img src="./assets/images/IMG-4726(1).jpg" width="800" height="800" alt="Ico del Collado Photo" class="w-100">
+                        </div>
+                        <p class="section-text">
+                            Let’s break the rules and start new ideas.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="portfolio">
+                <div class="container">
+                    <div class="title-wrapper container">
+                        <div>
+                            <p class="section-subtitle" id="portfolio-label">Una muestra de mis trabajos más recientes</p>
+                            <h2 class="h2 section-title">Portfolio</h2>
+                        </div>
+                    </div>
+                    <div class="slider" data-slider>
+                        <ul class="slider-container" data-slider-container>
+                            <li class="slider-item">
+                                <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+                                    <img src="./assets/images/beble_page.jpg" width="600" height="600" loading="lazy" alt="Beble home page image" class="img-cover">
+                                    <div class="card-content">
+                                        <h3 class="h3 card-title">Beble</h3>
+                                        <p class="card-text">Website Design / Development</p>
+                                    </div>
+                                    <a href="https://beble.mx" class="layer-link"></a>
+                                </div>
+                            </li>
+                            <li class="slider-item">
+                                <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+                                    <img src="./assets/images/veredas_de_mexico.jpg" width="600" height="600" loading="lazy" alt="Veredad de Mexico home page image" class="img-cover">
+                                    <div class="card-content">
+                                        <h3 class="h3 card-title">Veredas de México</h3>
+                                        <p class="card-text">Website Design / Development (en construcción)</p>
+                                    </div>
+                                    <a href="https://pakolalo.github.io/veredas_de_mexico/" class="layer-link"></a>
+                                </div>
+                            </li>
+                            <li class="slider-item">
+                                <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+                                    <img src="./assets/images/the_shop.jpg" width="600" height="600" loading="lazy" alt="The Shop home page image" class="img-cover">
+                                    <div class="card-content">
+                                        <h3 class="h3 card-title">The Shop</h3>
+                                        <p class="card-text">Development</p>
+                                    </div>
+                                    <a href="https://pakolalo.github.io/The_Shop/" class="layer-link"></a>
+                                </div>
+                            </li>
+                            <li class="slider-item">
+                                <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+                                    <img src="./assets/images/demo_page.jpg" width="600" height="600" loading="lazy" alt="Demo home page image" class="img-cover">
+                                    <div class="card-content">
+                                        <h3 class="h3 card-title">Demo page</h3>
+                                        <p class="card-text">Development</p>
+                                    </div>
+                                    <a href="https://pakolalo.github.io/demo_page/" class="layer-link"></a>
+                                </div>
+                            </li>
+                            <li class="slider-item">
+                                <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+                                    <img src="./assets/images/batatabit.jpg" width="600" height="600" loading="lazy" alt="Batatabit home page image" class="img-cover">
+                                    <div class="card-content">
+                                        <h3 class="h3 card-title">Batatabit</h3>
+                                        <p class="card-text">Development</p>
+                                    </div>
+                                    <a href="https://pakolalo.github.io/batatabit/" class="layer-link"></a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="slider-controls">
+                            <button class="slider-control prev" data-slider-prev>
+                                <div class="line"></div>
+                                <div class="arrow"></div>
+                            </button>
+                            <button class="slider-control next" data-slider-next>
+                                <div class="line"></div>
+                                <div class="arrow"></div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="service">
+                <div class="container">
+                    <div class="title-wrapper">
+                        <div>
+                            <p class="section-subtitle">
+                                Mis
+                            </p>
+                            <h2 class="h2 section-title" id="service-label">Servicios</h2>
+                        </div>
+                    </div>
+                    <div class="slider" data-slider>
+                        <ul class="slider-container service-list" data-slider-container>
+                            <li class="slider-item" data-slider-item>
+                                <div class="service-card">
+                                    <div class="card-icon">
+                                        <ion-icon name="desktop-outline"></ion-icon>
+                                    </div>
+                                    <h3 class="h3 card-title">Website Design</h3>
+                                    <span class="text-lg card-number">01</span>
+                                </div>
+                            </li>
+                            <li class="slider-item" data-slider-item>
+                                <div class="service-card">
+                                    <div class="card-icon">
+                                        <ion-icon name="podium-outline"></ion-icon>
+                                    </div>
+                                    <h3 class="h3 card-title">SEO Marketing</h3>
+                                    <span class="text-lg card-number">02</span>
+                                </div>
+                            </li>
+                            <li class="slider-item" data-slider-item>
+                                <div class="service-card">
+                                    <div class="card-icon">
+                                        <ion-icon name="color-filter-outline"></ion-icon>
+                                    </div>
+                                    <h3 class="h3 card-title">Graphic Design</h3>
+                                    <span class="text-lg card-number">03</span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="slider-controls">
+                            <button class="slider-control prev" data-slider-prev>
+                                <div class="line"></div>
+                                <div class="arrow"></div>
+                            </button>
+                            <button class="slider-control next" data-slider-next>
+                                <div class="line"></div>
+                                <div class="arrow"></div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="skills">
+                <div class="container">
+                    <p class="section-subtitle">Algo acerca de mi y mis</p>
+                    <h2 class="h2 section-title">Habilidades</h2>
+                    <div class="skills-wrapper">
+                        <div>
+                            <p class="section-text">
+                                Creo sitios web responsivos que son rápidos, fáciles de usar y construidos con las mejores prácticas. El área principal de mi experiencia es el desarrollo frontend, HTML, CSS y JS.
+                            </p>
+                            <p class="section-text">
+                                Soy una persona organizada, solucionadora de problemas, con gran atención a los detalles. Aficionado a la F1, los videojuegos y las series de TV.
+                            </p>
+                            <a href="#" class="btn has-before">Isco del Collado</a>
+                        </div>
+                        <div>
+                            <ul class="skills-list">
+                                <li>
+                                <div class="progress-wrapper">
+                                    <p class="progress-label">Diseño</p>
+                                    <data class="progress-value" value="90"></data>
+                                </div>
+                                <div class="progress-bg">
+                                    <div class="progress" style="width: 90%;"></div>
+                                </div>
+                                </li>
+                                <li>
+                                <div class="progress-wrapper">
+                                    <p class="progress-label">HTML5</p>
+                                    <data class="progress-value" value="92"></data>
+                                </div>
+                                <div class="progress-bg">
+                                    <div class="progress" style="width: 92%;"></div>
+                                </div>
+                                </li>
+                                <li>
+                                <div class="progress-wrapper">
+                                    <p class="progress-label">CSS3</p>
+                                    <data class="progress-value" value="95"></data>
+                                </div>
+                                <div class="progress-bg">
+                                    <div class="progress" style="width: 95%;"></div>
+                                </div>
+                                </li>
+                                <li>
+                                <div class="progress-wrapper">
+                                    <p class="progress-label">JavaScript</p>
+                                    <data class="progress-value" value="89"></data>
+                                </div>
+                                <div class="progress-bg">
+                                    <div class="progress" style="width: 89%;"></div>
+                                </div>
+                                </li>
+                                <li>
+                                    <div class="progress-wrapper">
+                                        <p class="progress-label">SEO</p>
+                                        <data class="progress-value" value="93"></data>
+                                    </div>
+                                    <div class="progress-bg">
+                                        <div class="progress" style="width: 93%;"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="progress-wrapper">
+                                        <p class="progress-label">React (loading...)</p>
+                                        <data class="progress-value" value="40"></data>
+                                    </div>
+                                    <div class="progress-bg">
+                                        <div class="progress" style="width: 40%;"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer-list">
+                <li>
+                    <p class="h4 footer-list-title">Ponte en contacto</p>
+                </li>
+                <li>
+                    <a href="mailto:info@iscodelcollado.com" class="footer-link btn has-before">info@iscodelcollado.com</a>
+                </li>
+            </ul>
+            <ul class="footer-list">
+                <li>
+                    <p class="h4 footer-list-title">Location</p>
+                </li>
+                <li>
+                    <a href="https://www.google.com.mx/maps/place/Ciudad+de+M%C3%A9xico,+CDMX/@19.3906594,-99.3084269,11z/data=!3m1!4b1!4m6!3m5!1s0x85ce0026db097507:0x54061076265ee841!8m2!3d19.4326077!4d-99.133208!16zL20vMDRzcWo" class="footer-link">Ciudad de México - México</a>
+                </li>
+            </ul>
+            <ul class="social-list">
+                <li>
+                    <a href="https://github.com/pakolalo" class="social-link">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/franciscodelcollados/" class="social-link">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+            <p class="footer-link rights">&copy;Isco del Collado 2023</p>
+        </div>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
